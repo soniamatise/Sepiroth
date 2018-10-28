@@ -5,17 +5,17 @@ module.exports = {
 	*/
 	env: {
 		environment: 'dev',
-    apiDomain: 'https://api.aangenaaminbusiness.nl',
+    	apiDomain: 'http://localhost:8888/wp-json',
 	},
 	/*
 	** Headers of the page
 	*/
 	head: {
-		title: 'Aangenaam in Business',
+		title: 'Sepiroth',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: 'Aangenaam In Business' }
+			{ hid: 'description', name: 'description', content: 'Sepiroth' }
 		],
 	},
 	/*

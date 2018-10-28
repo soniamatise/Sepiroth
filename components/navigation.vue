@@ -1,12 +1,12 @@
 <template>
 	<header class="header">
 		<nuxt-link to="/">
-			<div class="logo column" :style="``">Sepiroth</div>
+			<div class="logo" :style="`background-image: url(${logo})`"></div>
 		</nuxt-link>
 		
-		<nav class="nav top-nav">
-			<ul class="menu__list" v-for="item in menuitems" :key="item.id">
-				<li class="menu__item">
+		<nav class="nav">
+			<ul class="menu__list">
+				<li class="menu__item" v-for="item in menuitems" :key="item.id">
 					<nuxt-link
 						:to="item.object_slug"
 						class="menu__link">
@@ -26,6 +26,7 @@ export default {
 	data(){
 		return {
 			menuitems: [],
+			logo: require('~/assets/img/sepiroth.png'),
 		}
 	},
 	mounted(){
@@ -39,3 +40,35 @@ export default {
 	}
 };
 </script>
+
+<style lang="scss">
+.header {
+	.logo {
+		height: 100px;
+		width: 100%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 30px 0 20px;
+	}
+	.nav {
+		width: 80%;
+		margin: 0 auto 60px;
+		.menu {
+			&__list {
+				margin:0;
+				padding: 0;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			&__item {
+
+			}
+			&__link {
+
+			}
+		}
+	}
+}
+</style>

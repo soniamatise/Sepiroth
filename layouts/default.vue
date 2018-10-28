@@ -34,5 +34,9 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+ol, ul {
+    list-style: none outside none;
+}
 </style>
 

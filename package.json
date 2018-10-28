@@ -18,7 +18,8 @@
     "nuxt": "^1.0.0",
     "postcss": "^7.0.2",
     "sass-loader": "^7.1.0",
-    "url-search-params-polyfill": "^5.0.0"
+    "url-search-params-polyfill": "^5.0.0",
+    "vue-widgets": "^1.0.9"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

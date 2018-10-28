@@ -67,6 +67,10 @@ module.exports = {
 		},
 	},
 	plugins: [
+		{
+			src: '~plugins/vue-widget.js',
+			ssr: false
+		}
 	],
 	css: [
 		{

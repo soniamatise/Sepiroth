@@ -11,11 +11,14 @@
 
 <script>
 const Contentpage = () => import('~/layouts/contentpage');
+const Navigation = () => import('~/components/navigation.vue');
+
 export default {
 	props: ['error'],
 	layout: 'default',
 	components: {
-		Contentpage
+		Contentpage,
+		Navigation
 	}
 };
 </script>

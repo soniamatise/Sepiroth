@@ -11,11 +11,11 @@ module.exports = {
 	** Headers of the page
 	*/
 	head: {
-		title: 'Aangenaam in Business',
+		title: 'Sepiroth',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: 'Aangenaam In Business' }
+			{ hid: 'description', name: 'description', content: 'Sepiroth' }
 		],
 	},
 	/*

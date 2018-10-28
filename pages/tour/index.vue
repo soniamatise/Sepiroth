@@ -4,7 +4,8 @@
 	<a href="http://www.bandsintown.com/track/Sepiroth">TRACK SEPIROTH</a> 
     <div v-html="pageContent"/>
 	<WidgetBody>
-        <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Sepiroth" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#2F95DE" data-popup-background-color="#000000" data-background-color="#000000" data-display-limit="" data-link-text-color="#FFFFFF"></a>
+		<!-- https://manager.bandsintown.com/support/events-widget -->
+        <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Sepiroth" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#2F95DE" data-popup-background-color="#000000" data-background-color="transparent" data-display-limit="" data-link-text-color="#FFFFFF"></a>
     </WidgetBody>
   </section>
 </template>

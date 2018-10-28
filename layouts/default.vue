@@ -2,17 +2,17 @@
   <div class="section-inner">
     <navigation/>
     <nuxt/>
-    <footer/>
+    <footer-el/>
   </div>
 </template>
 <script>
 const Navigation = () => import('~/components/navigation.vue');
-const Footer = () => import('~/components/footer.vue');
+const FooterEl = () => import('~/components/footer-el.vue');
 
 export default {
   components: {
     Navigation,
-    Footer,
+    FooterEl,
 	}
 }
 

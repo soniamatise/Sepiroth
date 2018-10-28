@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 @import 'variables/index', 'typography/index', 'layout/index';
-
 body {
 	background-color: $black;
 	color: $white;
+	background-position: top center;
+	background-size: 80%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
+
+body.home {
+	background-image:url('../img/sepiroth-band.jpg');
+}	

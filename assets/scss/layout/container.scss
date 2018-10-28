@@ -1,14 +1,17 @@
 .section-inner {
-	width: 70%;
+	background-color: rgba(0,0,0,.7);
+	padding: 0 15%;
 	margin: 0 auto;
-	@include respond-to($phone) {
-		width: 100%;
-	}
+	overflow: hidden;
+	min-height: 100vh;
+		@include respond-to($phone) {
+			padding: 0 20px;
+		}
   }
   
   .container {
-	img {
-	  width: 100%;
-	  height: auto;
-	}
-  }
+		img {
+			width: 100%;
+			height: auto;
+		}
+}

@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container home">
       <!-- <navigation/> -->
   </section>
 </template>
@@ -9,8 +9,14 @@
 
 export default {
   layout: 'default',
+  head: {
+    bodyAttrs: {
+      class: 'home'
+    }
+  },
   components: {
     // Navigation
   }
 }
 </script>
+

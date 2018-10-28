@@ -62,11 +62,9 @@ export default {
 				flex-direction: row;
 				justify-content: space-around;
 			}
-			&__item {
-
-			}
 			&__link {
-
+				text-transform: uppercase;
+				font-weight: 400;				
 			}
 		}
 	}

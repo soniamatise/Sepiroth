@@ -1,16 +1,14 @@
 <template>
-  <section class="container">
-      <!-- <navigation/> -->
+  <section class="container the-band">
+	  
   </section>
 </template>
 
 <script>
-// const Navigation = () => import('~/components/navigation.vue');
 
 export default {
   layout: 'default',
   components: {
-    // Navigation
   }
 }
 </script>

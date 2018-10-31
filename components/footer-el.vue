@@ -1,6 +1,5 @@
 <template>
 	<footer class="footer">
-		<p>© 2018 Copyright - Sepiroth - All Rights Reserved.</p>
 		<div class="socials">
 			 <ul class="social-icons">
 				<li><a target="_blank" href="https://www.facebook.com/sepirothnl/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
@@ -10,6 +9,7 @@
 				<li><a target="_blank" href="https://open.spotify.com/artist/5NxUeDwyCm8aQGsDGZpI0p" class="social-icon"> <i class="fa fa-spotify"></i></a></li>
 			 </ul>
 		</div>
+		<p>© 2018 Copyright - Sepiroth - All Rights Reserved.</p>
 	</footer>
 </template>
 
@@ -43,7 +43,7 @@ export default {
 		opacity: 1;
 		transition: color 250ms ease;
 		&:hover {
-			color: #5c849b;
+			color: $blue;
 		}
 	}
 	ul.social-icons {
@@ -58,6 +58,11 @@ export default {
 		}
 		a {
 			text-decoration: none;
+			&:hover {
+				&:before {
+				width: 0%;
+				}
+			}
 		}
 	}
 }

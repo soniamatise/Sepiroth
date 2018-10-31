@@ -4,14 +4,23 @@
 	margin: 0 auto;
 	overflow: hidden;
 	min-height: 100vh;
-		@include respond-to($phone) {
-			padding: 0 20px;
-		}
-  }
-  
-  .container {
+	@include respond-to($phone) {
+		padding: 0 20px;
+	}
+}
+
+.container {
+	img {
+		width: 100%;
+		height: auto;
+	}
+	&.music {
 		img {
-			width: 100%;
-			height: auto;
+			width: 300px;
+			clear: both;
+			@include respond-to($phone) {
+				width: 100%;
+			}
 		}
+	}
 }

@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/scss/variables/index';
+
+
 .header {
 	.logo {
 		height: 100px;
@@ -61,10 +64,35 @@ export default {
 				display: flex;
 				flex-direction: row;
 				justify-content: space-around;
+				text-align: center;
 			}
 			&__link {
 				text-transform: uppercase;
-				font-weight: 400;				
+				font-weight: 400;	
+				position: relative;
+				
+				&:before {
+					content: '';
+					position: absolute;
+					bottom: -2px;
+					left:0;
+					width: 0%;
+					background-color: $blue;
+					transition: width 300ms ease;
+					height: 1px;
+				}
+				&:hover {
+					&:before {
+						width: 90%;
+						background-color: $blue;
+					}
+				}
+				&--active {
+					&:before {
+						width: 90%;
+						background-color: $white;
+					}
+				}			
 			}
 		}
 	}

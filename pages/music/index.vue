@@ -30,3 +30,9 @@ export default {
   },
 }
 </script>
+<style lang="scss">
+@import './assets/scss/variables/index';
+
+
+
+</style>

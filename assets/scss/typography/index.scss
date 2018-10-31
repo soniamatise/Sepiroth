@@ -53,8 +53,25 @@ h6{
 a {
 	text-decoration: none;
 	color: $white;
-	transition: color 250ms ease;
-	&:hover {
-		color: #5c849b;
-	}
+    transition: color 250ms ease;
+    font-weight: bold;
+    position: relative;
+
+	&:before {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left:0;
+        width: 0%;
+        background-color: $white;
+        transition: width 300ms ease;
+        height: 1px;
+    }
+    &:hover {
+        color: $blue;
+        &:before {
+            width: 100%;
+            background-color: $blue;
+        }
+    }	
 }

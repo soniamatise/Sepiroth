@@ -3,11 +3,11 @@
 		<p>© 2018 Copyright - Sepiroth - All Rights Reserved.</p>
 		<div class="socials">
 			 <ul class="social-icons">
-				<li><a href="https://www.facebook.com/sepirothnl/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-				<li><a href="https://www.instagram.com/sepirothdeathmetal/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-				<li><a href="https://www.youtube.com/channel/UCy2PtzcuE4RjLkfnC-CFzUA" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-				<li><a href="https://sepiroth.bandcamp.com/" class="social-icon"> <i class="fa fa-bandcamp"></i></a></li>
-				<li><a href="https://open.spotify.com/artist/5NxUeDwyCm8aQGsDGZpI0p" class="social-icon"> <i class="fa fa-spotify"></i></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/sepirothnl/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+				<li><a target="_blank" href="https://www.instagram.com/sepirothdeathmetal/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" href="https://www.youtube.com/channel/UCy2PtzcuE4RjLkfnC-CFzUA" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+				<li><a target="_blank" href="https://sepiroth.bandcamp.com/" class="social-icon"> <i class="fa fa-bandcamp"></i></a></li>
+				<li><a target="_blank" href="https://open.spotify.com/artist/5NxUeDwyCm8aQGsDGZpI0p" class="social-icon"> <i class="fa fa-spotify"></i></a></li>
 			 </ul>
 		</div>
 	</footer>

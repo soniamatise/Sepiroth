@@ -5,7 +5,7 @@ module.exports = {
 	*/
 	env: {
 		environment: 'dev',
-    	apiDomain: 'http://localhost:8888/wp-json',
+    	apiDomain: 'http://localhost:8888/wp-json',// CHANGE
 	},
 	/*
 	** Headers of the page
